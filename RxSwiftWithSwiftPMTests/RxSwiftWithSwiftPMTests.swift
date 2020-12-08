@@ -12,7 +12,7 @@ import RxTest
 
 class RxSwiftWithSwiftPMTests: XCTestCase {
 	var dispose = DisposeBag()
-
+	let scheduler = TestScheduler(initialClock: 0)
 	func testExample() throws {
 		XCTAssertTrue(true)
 	}
