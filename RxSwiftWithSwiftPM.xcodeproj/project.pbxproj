@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D6A7A4AC257F7533000B3150 /* RxSPMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A7A4AB257F7533000B3150 /* RxSPMTests.swift */; };
 		DC19C825257F6E5100790E81 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC19C824257F6E5100790E81 /* AppDelegate.swift */; };
 		DC19C827257F6E5100790E81 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC19C826257F6E5100790E81 /* SceneDelegate.swift */; };
 		DC19C829257F6E5100790E81 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC19C828257F6E5100790E81 /* ViewController.swift */; };
@@ -64,6 +65,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		D6A7A4AB257F7533000B3150 /* RxSPMTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSPMTests.swift; sourceTree = "<group>"; };
 		DC19C821257F6E5100790E81 /* RxSwiftWithSwiftPM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxSwiftWithSwiftPM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC19C824257F6E5100790E81 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DC19C826257F6E5100790E81 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -163,6 +165,7 @@
 			children = (
 				DC19C83B257F6E5200790E81 /* RxSwiftWithSwiftPMTests.swift */,
 				DC19C83D257F6E5200790E81 /* Info.plist */,
+				D6A7A4AB257F7533000B3150 /* RxSPMTests.swift */,
 			);
 			path = RxSwiftWithSwiftPMTests;
 			sourceTree = "<group>";
@@ -388,6 +391,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6A7A4AC257F7533000B3150 /* RxSPMTests.swift in Sources */,
 				DC19C83C257F6E5200790E81 /* RxSwiftWithSwiftPMTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -569,6 +573,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3B8C483UAP;
 				INFOPLIST_FILE = RxSwiftWithSwiftPM/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -587,6 +592,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3B8C483UAP;
 				INFOPLIST_FILE = RxSwiftWithSwiftPM/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -605,6 +611,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3B8C483UAP;
 				INFOPLIST_FILE = RxSwiftWithSwiftPMTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -626,6 +633,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3B8C483UAP;
 				INFOPLIST_FILE = RxSwiftWithSwiftPMTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -646,6 +654,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3B8C483UAP;
 				INFOPLIST_FILE = RxSwiftWithSwiftPMUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -665,6 +674,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3B8C483UAP;
 				INFOPLIST_FILE = RxSwiftWithSwiftPMUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
